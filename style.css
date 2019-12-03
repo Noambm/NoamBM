@@ -111,6 +111,9 @@ nav > ul {
   .dropdown:hover > .dropdown-content {
     display: initial;
   }
-  
+.row1{
+
+    display:inline-flex;
+}
   
   
