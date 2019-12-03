@@ -1,1 +1,35 @@
 
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+
+    font-family: Arial;
+    padding-bottom: 38px;
+    background-color:white;
+    direction: rtl;
+    
+}
+
+.container{
+
+        width: 900px;
+        margin: 0 auto;
+        
+    }
+
+
+.header{
+
+        position: relative;
+        width: 100%;
+        
+}
+
+#pazlogo {
+    position: absolute;
+    display: block;
+
+}
