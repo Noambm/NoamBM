@@ -28,10 +28,18 @@
 
 .sb {
     position: absolute;
-    top: 15px;
-    left: 137px;
+    top: 10px;
+    left: 153px;
     width: 126px;
-    height: 14px; 
+   
+}
+
+#search{
+
+    position: absolute;
+    top: -10px;
+    left: -18px;
+    width: 17px;
 
 }
 
@@ -70,9 +78,9 @@ nav > ul {
 
   .ulheader{
  
-    padding-top: 60px;
-    color:white;
-    padding-right: 40px;
+    padding-top: 18px;
+    color: white;
+    padding-right: 60px;
 }
   
   
@@ -197,18 +205,27 @@ color: white;
   .flex{
 
     display: flex;
+    margin-top: 21px;
+    margin-right: 20px;
+    height: 168px;
+    width: 168px;
   }
   .ullist > li{
 
     display: list-item;
+    margin: 5px 0 0 0;
   }
 
-  h3{
+   h3{
 
-    margin: 4px 16px 7px 0;
+    margin: 10px 12px -1px 0;
     font-size: 14px;
   }
-  
+  .colunm2 h3{
+
+    
+    font-size: 14px;
+  }
 
   .colunm2 img{
 
@@ -228,4 +245,21 @@ span{
 
     margin-top: 20px;
     margin-right: 10px;
+    height: 168px;
+    width: 168px;
+}
+
+#map{
+
+    width: 73px;
+    height: 168px;
+    margin: -13px 151px 0 0;
+}
+.middlepage{
+
+    margin-top:10px;
+}
+
+.downlist li a{
+    color: white;
 }
