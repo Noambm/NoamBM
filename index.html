@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,162 +9,201 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
+
 <body>
-  <div class="container">   
-     <div class="header">
-        <nav>
-            <div><!-- This is a Paz Logo pic here-->
-                    <a class="logo" href="#"><img src="paz_logo.png"></a> 
-            </div>
-         <ul>           
-            <li class="dropdown">  <!-- This is a About menu-->
-                 <a href="#">אודות</a>
-                  <div class="dropdown-content"> <!-- This is a About-contant menu-->
-                    <a href="#">אודות</a>
-                    <a href="#">היסטוריה</a>
-                    <a href="#">חזון וערכים</a>
-                    <a href="#">מבנה קבוצה</a>
-                    <a href="#">חברי דריקטריון</a>
-                    <a href="#">הנהלת הקבוצה</a>
-                    <a href="#">פרסים והוקרה</a>
-                 </div>     
-            </li>
-            <li id="division"><!-- This is a division menu-->
-                <a href="#">חטיבות</a> 
-            </li>
-            <li id="copresp"><!-- This is a corporation responsability menu-->
-                <a href="#">אחריות תאגידית</a> 
-            </li>
-            <li id="investor"><!-- This is a investor Relations menu-->
-                <a href="#">קשרי משקיעים</a> 
-            </li>
-            <li id="station"><!-- This is a investor Relations menu-->
-                <a href="#">התחנות שלנו</a> 
-            </li>
-            <li id="career"><!-- This is a Career menu-->
-                <a href="#">קריירה</a> 
-            </li>
-            <li id="news"><!-- This is a news menu-->
-                <a href="">חדשות ומדיה</a> 
-            </li>  
-            <li> <!-- This is home shortcut-->
-                <a href="menu_home.png"></a>
-            </li>                   
-         </ul>
-         <div class="sb"> <!-- This is a search box menu-->
-            <input class="sb" name="sb" type="text" value="רשום מילת חיפוש" >
-            <a class="sb" href="#"><img src="search_button.png"></a>
-         </div>
-        </nav>   
-     </div>
-     <div Class="middlepage">       
+
+    <div class="header">
+        <div id="header">
+            <nav>
+                <div>
+                    <!-- This is a Paz Logo pic here-->
+                    <a class="logo" href="#"><img src="paz_logo.png"></a>
+
+                </div>
+
+                <div class="sb">
+                    <!-- This is a search box menu-->
+                    <input class="sb" name="sb" type="text" value="רשום מילת חיפוש">
+                    <a class="sb" href="#"><img src="search_button.png"></a>
+                </div>
+
+                <ul class="ulheader">
+
+                    <li>
+                        <a class="logohome" href="#"><img src="menu_home.png"></a>
+
+                    </li>
+                    <li class="dropdown">
+                        <!-- This is a About menu-->
+                        <a href="#">אודות</a>
+                        <div class="dropdown-content">
+                            <!-- This is a About-contant menu-->
+                            <a href="#">אודות</a>
+                            <a href="#">היסטוריה</a>
+                            <a href="#">חזון וערכים</a>
+                            <a href="#">מבנה קבוצה</a>
+                            <a href="#">חברי דריקטריון</a>
+                            <a href="#">הנהלת הקבוצה</a>
+                            <a href="#">פרסים והוקרה</a>
+                        </div>
+                    </li>
+                    <li id="division">
+                        <!-- This is a division menu-->
+                        <a href="#">חטיבות</a>
+                    </li>
+                    <li id="copresp">
+                        <!-- This is a corporation responsability menu-->
+                        <a href="#">אחריות תאגידית</a>
+                    </li>
+                    <li id="investor">
+                        <!-- This is a investor Relations menu-->
+                        <a href="#">קשרי משקיעים</a>
+                    </li>
+                    <li id="station">
+                        <!-- This is a investor Relations menu-->
+                        <a href="#">התחנות שלנו</a>
+                    </li>
+                    <li id="career">
+                        <!-- This is a Career menu-->
+                        <a href="#">קריירה</a>
+                    </li>
+                    <li id="news">
+                        <!-- This is a news menu-->
+                        <a href="">חדשות ומדיה</a>
+                    </li>
+                    <li>
+                        <!-- This is home shortcut-->
+                        <a href="menu_home.png"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div Class="middlepage">
+        <div class="contaner">
             <div class="row1">
-                    <div class="colunm">
-                            <img class="ab" alt="קמעונאות ומסחר" src="pic1.JPG">
-                            <div class="msg">
-                                <h3>קמעונאות ומסחר</h3>
-                    
-                                <p> במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית, והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות ומובילות. החטיבה פועלת...<br>
-                                <br>
-                                </p>
-                                
-                                <a href="#" class="readMore" target="_blank">
-                                    <span>קרא עוד</span>
-                                </a>
-                            </div>
-                    </div>
-                    <div class="colunm">
-                            <img class="bc" alt="זיקוק " src="pic2.jpg">
-                            <div class="msg">
-                                <h3>זיקוק </h3>                 
-                                 <p>פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית הזיקוק באשדוד, הכוללת ייצור תזקיקי נפט...</p>
-                            </div>
-                            <a href="#" class="readMore" target="">
-                                    <span>קרא עוד</span>
-                            </a>
-                    </div>
-
-                    <div class="colunm">
-                            <img class="cd" alt="תעשיות ושירותים" src="pic3.jpg">
-                            <div class="text fc">
-                            <h3>תעשיות ושירותים</h3>
-                            <p>תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור ושיווק מוצרי לוואי של נפט, ומובילות את השוק...<br></p>
-                            <a href="#" class="readMore" target="">
-                                    <span>קרא עוד</span>
-                             </a>
-                            </div>
-                 </div>
-            </div>
-            <div class="row2">
-                    <div class="colunm2">
-                            <h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
-                             <img src="pic4.jpg"  alt="כרטיס אשראש">
-                             <a href="#"  target="_blank">
-                                 <span>לפרטים נוספים</span>
-                             </a>
-                    </div>
-
-                    <div class="colunm2">
-                                    <h3>yellow click&amp;pick;</h3>
-                                    <img src="#"graph" alt="yellow click&amp;pick"> 
-                    </div>
-
-            
-                   <div class="colunm2">
-                    <img src="pic5.jpg" alt="">
+                <div class="colunm">
+                    <img class="a" alt="קמעונאות ומסחר" src="pic1.JPG">
                     <div class="msg">
-                     <br>
-                        <a href="#"  target="">
-                            <span>צפון</span>
-                        </a>
-                        <a href="#" target="">
-                            <span>מרכז</span>
-                        </a>
-                        <a href="#" target="">
-                            <span>דרום</span>
+                        <h3>קמעונאות ומסחר</h3>
+                        <p> במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית,
+                            והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות ומובילות. החטיבה פועלת...
+                        </p>
+                        <a href="#" class="readMore" target="_blank">
+                            <span>קרא עוד</span>
                         </a>
                     </div>
                 </div>
-             </div>
+                <div class="colunm">
+                    <img class="a" alt="זיקוק " src="pic2.jpg">
+                    <div class="msg">
+                        <h3>זיקוק </h3>
+                        <p>פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת בניהול פעילות בית הזיקוק
+                            באשדוד, הכוללת ייצור תזקיקי נפט...</p>
 
-     </div>
-     <div class="footer">
-            <div class="topmenu">              
-                     <ul>
-                        <li>
-                            <a href="#" target="_blank"></a>
-                            <a href="#">עמוד הבית</a>
-                        </li>
-                    
-                        <li>
-                                <a href="#">מחירונים</a>
-                        </li>
-                    
-                         <li>
-                                <a href="#">קריירה</a>
-                        </li>
-                        <li>
-                                <a href="#">תנאי שימוש</a>
-                        </li>
-                         <li>
-                                <a href="#">נגישות</a>
-                         </li>
-                          <li>
-                                <a href="#">מפת אתר</a>
-                        </li>
-                         <li>
-                                <a href="#">צור קשר</a>
-                         </li>
-                         <li>
-                                <a href="#"> מסחר</a>
-                         </li>
-                    
-                    </ul>                           
+                        <a href="#" class="readeMore" target="">
+                            <span>קרא עוד</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="colunm">
+                    <img class="a" alt="תעשיות ושירותים" src="pic3.jpg">
+                    <div class="msg">
+                        <h3>תעשיות ושירותים</h3>
+                        <p>תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות בפיתוח, ייצור ושיווק
+                            מוצרי לוואי של נפט, ומובילות את השוק...<br></p>
+                        <a href="#" class="readeMore" target="">
+                            <span>קרא עוד</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-     </div>
-   </div>
+            <div class="row2">
+                <div class="colunm2">
+                    <h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
+                    <img src="pic4.jpg" alt="כרטיס אשראש">
+                    <a href="#" target="_blank">
+                        <span>לפרטים נוספים</span>
+                    </a>
+                </div>
+
+                <div class="colunm2">
+                    <h3>yellow click&amp;pick;</h3>
+                    <img src="pic6.jpg" alt="yellow click&amp;pick">
+                </div>
 
 
-    
+                <div class="colunm3">
+                    <h3>תחנות בדרך אליך</h3>
+                    <div class="flex">
+
+                        <ul>
+                            <li>
+                                <a href="#" target="">
+                                    <span>צפון</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="">
+                                    <span>מרכז</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="">
+                                    <span>דרו</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div>
+                            <img src="pic5.jpg" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="contaner">
+            <div class="topmenu">
+                <ul class="downlist">
+                    <li>
+                        <a href="#" target="_blank"></a>
+                        <a href="#">עמוד הבית</a>
+                    </li>
+
+                    <li>
+                        <a href="#">מחירונים</a>
+                    </li>
+
+                    <li>
+                        <a href="#">קריירה</a>
+                    </li>
+                    <li>
+                        <a href="#">תנאי שימוש</a>
+                    </li>
+                    <li>
+                        <a href="#">נגישות</a>
+                    </li>
+                    <li>
+                        <a href="#">מפת אתר</a>
+                    </li>
+                    <li>
+                        <a href="#">צור קשר</a>
+                    </li>
+                    <li>
+                        <a href="#"> מסחר</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
+
 </html>
