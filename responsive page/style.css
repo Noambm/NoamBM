@@ -1,0 +1,28 @@
+
+
+.responsive-pic, .responsive-text ,.responsive-video{
+
+    display: none;
+}
+
+@media screen and (min-width: 300px) and (orientation:landscape) {
+  
+    .responsive-pic {
+      display: block;
+    }
+  }
+  
+  
+  @media screen and (aspect-ratio: 4/3) {
+    
+    .responsive-text {
+        display: block;
+  }
+}
+  
+  @media screen and (min-width: 600px) and (max-width: 900px){
+    .responsive-video{
+        display: block;
+    }
+  
+  }
