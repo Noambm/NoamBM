@@ -235,11 +235,7 @@ color: white;
     margin-right: 15px;
   }
 
-  
-span{
 
-    color: #575757;
-}
 
 .flex{
 
@@ -262,4 +258,25 @@ span{
 
 .downlist li a{
     color: white;
+}
+
+#info1{
+
+    padding: 0 0 0 12px;
+    color: white;
+    margin: 0px 190px 0px 0px
+}
+
+#infologo{
+    margin: 0px 190px 0px 0px
+}
+
+}
+#info2{
+
+}
+ul>li>span {
+
+  list-style-type: none;
+
 }
